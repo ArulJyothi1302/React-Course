@@ -50,4 +50,12 @@ function task2(){
     })
     document.getElementById('t2').innerHTML=stud3
 }
-
+let stud4=['ganesh','murugan','kevin']
+function task3(){
+   
+   stud4.forEach((v,i,a)=>{
+   a[i]=v.slice(0,-1)+v.substr(-1).toUpperCase()
+    console.log(a[i],'...')
+     })
+    document.getElementById('t3').innerHTML=stud4
+}
